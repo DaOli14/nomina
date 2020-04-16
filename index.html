@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NOMINA</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="flex2">
+<h2>Calculo de Nomina Empleados 2020</h2></div>
+  <script src="imss.js"></script>
+  <div class="formulario">
+    <form action="">
+      
+        <div class="lol"> <p>Salario Base (SB)</p>
+        <input id="salarioBase" type="text">
+      </div>        
+      <div class="lol">
+          <p>Salario Base de Cotización (SBC)</p>
+          <input id="sbc" type="text">
+      </div>
+      <div class="lol">
+          <p>Dias</p>
+          <input id="dias" type="text"> 
+      </div>
+
+          <!--<p>Periodo</p>
+          <select id="periodo" class="">
+            <option value="Diario" id="Diario">Diario</option>
+            <option value="Semanal" id="Semanal">Semanal</option>
+            <option value="Quincenal" id="Quincenal">Quincenal</option>
+            <option value="Mensual" id="Mensual">Mensual</option>
+          </select>-->
+        <div class="lol">
+          <p>Sueldo
+          <p id="sueldo" class="resolucion">-</p>
+        </div>
+        <div class="lol">
+          <p>Total de IMSS Empleado
+          <p id="imssEmpleado" class="resolucion">-</p>
+        </div>
+        <div class="lol">
+          <p>ISR
+          <p id="isr" class="resolucion">-</p>
+        </div>
+        <div class="lol"> 
+          <p>Subsidio al empleo
+          <p id="subsidio" class="resolucion">-</p>
+        </div>
+        <div class="lol">
+          <p>Subsidio efectivamente pagado
+          <p id="subsidioPagado" class="resolucion">-</p>
+        </div>
+        <div class="lol">
+          <p>INFONAVIT</p>
+          <input id="infonavit" type="text" >
+        </div>
+        <div class="lol">
+          <div class="flex">
+          <input type="button" class="boton" onclick="imss(), suma()" value="Resultado">
+          </div>
+          <p id="resultado" class="resolucion">-</p> 
+        </div>
+          </div>     
+  </form>
+  <div class="flex3">
+<h3>By: David OS</h3></div>
+  <script src="imss.js"></script>
+</body>
+</html>
+
+

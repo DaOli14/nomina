@@ -1,0 +1,99 @@
+
+body{
+	background-color: #CFDEE7;
+	
+}
+/*.formulario {
+	background-color: #5E7CE2;
+	color: white;
+	color: #0A369D;
+	width: 100%;
+	
+} */
+
+.formulario {
+	border: 4px solid #0A369D;
+	padding:0% 2% 2% 2%;
+	font-size: 23px;
+	font-weight: bold;
+}
+.lol {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2%;
+	color: #0A369D;
+	justify-content: space-between;
+
+
+}
+
+p {
+	width: 60%;
+	margin: 0%;
+	
+	border: 2px solid #0A369D;
+	padding:1%;
+	flex-shrink: 0;
+	background-color: #92B4F4;
+
+}
+
+input {
+	width: 34%;
+	/*background-color: #4472CA;*/
+	border: 2px solid #0A369D;
+	padding:1%;
+	margin: 0%;
+	flex-shrink: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	padding:1%;
+
+}
+.boton {
+	background-color:  #0A369D;
+	color: white;
+	flex-shrink: 0;
+	font-size: 25px;
+	padding: 1%;
+	margin: 0%;
+	width: 80%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.resolucion{
+	background-color: #0A369D;
+	background-color: #5E7CE2;
+	background-color:  #4472CA;
+	width: 34%;
+	border: 2px solid #0A369D;
+	flex-shrink: 0;
+	color: white;
+}
+
+.flex2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding:0%;
+	margin: 0%;
+}
+.flex3 {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding:1%;
+
+}
+h2, h3 {
+	color: #0A369D;
+	padding:0%;
+	margin: 1%;
+}
